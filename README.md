@@ -1,22 +1,26 @@
-Simple Password Generator
-A lightweight, terminal-based Python utility that generates customisable, cryptographically-aware passwords and evaluates their security strength in real-time.
+# Simple Password Generator
 
-Features
-Customisable Complexity: Users can toggle numeric and special character inclusion.
+A lightweight Python utility designed to generate high-entropy, customisable passwords with a real-time security strength evaluator.
 
-Dynamic Length: Supports any password length (upto 20 characters) via user input.
+---
 
-Strength Evaluator: A built-in algorithm that gauges password security based on length, casing, and character diversity.
+## Key Features
+* **Customisation:** Toggle numbers and special characters on/off.
+* **Dynamic Entropy:** Specify any length (upto 20 characters) to meet specific site requirements.
+* **Live Strength Gauge:** Instant feedback using a multi-factor scoring algorithm.
+* **Bulletproof Logic:** Includes try-except blocks to handle invalid user inputs gracefully.
 
-Input Validation: Robust error handling to prevent crashes from invalid user inputs.
+## How the Strength Gauge Works
+The app evaluates the password based on a 5-point scoring system:
 
-Strength Rating Criteria
-The strength gauge evaluates passwords based on a 5-point scale:
-
-Length: +1 for 8+ characters, +1 for 12+ characters.
-
-Casing: +1 for mixed uppercase and lowercase.
-
-Numbers: +1 for inclusion of digits.
-
-Symbols: +1 for inclusion of special characters.
+- **Length (Basic):** +1 point if 8+ characters
+- **Length (Advanced):** +1 point if 12+ characters
+- **Mixed Case:** +1 point for using both UPPER and lower case
+- **Numbers:** +1 point for including 0-9
+- **Symbols:** +1 point for including !@#$%^&*
+  
+## 📖 Installation & Usage
+1. Clone the repository to your local machine.
+2. Navigate to the project folder in your terminal.
+3. Run the application using the command:
+   `python password-generator-v1.0.py`
