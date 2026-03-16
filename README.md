@@ -1,8 +1,8 @@
-Secure Password Architect
+Simple Password Generator
 A lightweight, terminal-based Python utility that generates customisable, cryptographically-aware passwords and evaluates their security strength in real-time.
 
 Features
-Customizable Complexity: Users can toggle numeric and special character inclusion.
+Customisable Complexity: Users can toggle numeric and special character inclusion.
 
 Dynamic Length: Supports any password length (upto 20 characters) via user input.
 
