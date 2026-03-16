@@ -19,7 +19,7 @@ The app evaluates the password based on a 5-point scoring system:
 - **Numbers:** +1 point for including 0-9
 - **Symbols:** +1 point for including !@#$%^&*
   
-## 📖 Installation & Usage
+## Installation & Usage
 1. Clone the repository to your local machine.
 2. Navigate to the project folder in your terminal.
 3. Run the application using the command:
